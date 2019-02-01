@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="two:war exploded">
+    <output-path>/Applications/MAMP/bin/apacheTomcat/webapps/two_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="two/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="two" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
