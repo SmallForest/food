@@ -97,7 +97,9 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor />
+                  <first_editor relative-caret-position="25">
+                    <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+                  </first_editor>
                   <second_editor />
                 </state>
               </provider>
@@ -186,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/com/immoc/servlet/selectFoodByNameServlet.java" />
         <option value="$PROJECT_DIR$/web/showFoodList.jsp" />
         <option value="$PROJECT_DIR$/src/com/immoc/servlet/FoodDeleteServlet.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -372,12 +375,20 @@
       <workItem from="1548940685267" duration="16039000" />
       <workItem from="1549002436004" duration="18000" />
       <workItem from="1549010817419" duration="2223000" />
-      <workItem from="1549035029772" duration="187000" />
+      <workItem from="1549035029772" duration="414000" />
     </task>
+    <task id="LOCAL-00001" summary="more">
+      <created>1549035351918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549035351919</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18467000" />
+    <option name="totallyTimeSpent" value="18694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -390,7 +401,7 @@
       <window_info id="Designer" order="5" />
       <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.17811158" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="3" />
@@ -418,6 +429,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="more" />
+    <option name="LAST_COMMIT_MESSAGE" value="more" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/left.jsp">
@@ -605,6 +620,16 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="25">
+            <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

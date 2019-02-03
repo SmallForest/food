@@ -87,14 +87,13 @@ public class FoodAddServlet extends HttpServlet {
                 }
             } else if (map.get("type").equals("update")) {
                 //校验ID,如果是更新就把存在的删除 不存在的添加
-                List<Food> list2 = new ArrayList<>();
                 boolean flag = false;
 
                 for (Food f : list1) {
-                    if (f.getId() != Integer.parseInt(map.get("id"))) {
-                        list2.add(f);
-                    }else{
+                    if (f.getId() == Integer.parseInt(map.get("id"))) {
+                        list1.remove(f);
                         flag = true;
+                        break;
                     }
                 }
                 if (!flag){
@@ -103,7 +102,6 @@ public class FoodAddServlet extends HttpServlet {
                     request.getRequestDispatcher("/updateFood.jsp").forward(request, response);
                     return;
                 }
-                list1 = list2;
             }
             //生成food对象并存储到list1
             Food f = new Food();
