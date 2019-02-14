@@ -19,7 +19,6 @@ public class FoodDeleteServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setCharacterEncoding("UTF-8");
         if(request.getParameter("id").equals("")){
             request.setAttribute("msg","请输入要删除的ID");
             request.setAttribute("color","red");
