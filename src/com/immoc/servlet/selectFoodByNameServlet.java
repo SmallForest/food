@@ -19,7 +19,7 @@ public class selectFoodByNameServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setCharacterEncoding("UTF-8");
+
         String name = request.getParameter("foodName");
         ServletContext sc = this.getServletContext();
         List<Food> list = (List<Food>) sc.getAttribute("list");
