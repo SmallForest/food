@@ -12,6 +12,7 @@ public class CharsetFilter implements Filter {
         System.out.println("中文过滤器工作》》》");
         //把请求的修改成为utf-8
         servletRequest.setCharacterEncoding("UTF-8");
+        servletResponse.setCharacterEncoding("UTF-8");
         //告诉其他过滤器本过滤器已经完成过滤工作
         filterChain.doFilter(servletRequest, servletResponse);
     }
